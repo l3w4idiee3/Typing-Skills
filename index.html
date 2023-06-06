@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Typing game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Typing game!</h1>
+  <p>Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
+  <p id="quote"></p>
+  <p id="message"></p>
+  <div>
+    <input type="text" aria-label="current word" id="typed-value" />
+    <button type="button" id="start">Start</button>
+    <button type="button" id="restart" style="display: none;">Restart</button>
+    <button type="button" id="rest" style="display: none;">Take a Rest</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Sentence</th>
+        <th>Time (seconds)</th>
+      </tr>
+    </thead>
+    <tbody id="timeTableBody"></tbody>
+  </table>
+  <p id="totalTime"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

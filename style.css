@@ -1,0 +1,73 @@
+.highlight {
+    background-color: rgb(226, 198, 20);
+  }
+  
+  .error {
+    background-color: rgb(240, 128, 148);
+    border: rgb(255, 0, 0);
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  #quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  #restart, #rest {
+    display: none;
+  }
+  
+  .error {
+    border: 2px solid red;
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+  
